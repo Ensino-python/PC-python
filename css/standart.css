@@ -1,48 +1,46 @@
-@import "css/mobile/standart_mobile.css";
-
-.apresentation{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-        background-image: radial-gradient(circle at 110% -110%,var(--color-secondary) 0%,var(--color-white) 92%,var(--color-white) 92%,var(--color-tertiary) 100%);
-    
-}
-
-.apresentation-content{
-    width: 75%;
-    padding: 2rem;
-    margin: 7rem 0;
-}
 
 .apresentation-img{
-
-    height: 20rem ;  
-   
-}
-
-
-.apresentation-img img{
-    
+    position: absolute;
+    z-index: -1000;
+    top: 0;
+    filter: opacity(0.08);
     max-width: 100%;
-    height: 100%;
 }
 
-.apresentation-text {
-
-    margin-top: 1rem;
+.apresentation-img svg{
+    max-width: 100%;
+    max-height: 100vh;
 }
 
+#apresentation{
+    width: 60%;
 
-.apresentation-text h2{
-    font-size: 4rem;
-    line-height: 5rem;
-    color: var(--color-primary);
-}
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5rem;
+    border-radius: 1rem;
 
-.apresentation-text p{
     
-    font-size: 1.4rem;
-    font-weight: 200;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+#apresentation h1{
+    font-size: 4rem;
+    text-align: center;
+    line-height: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    color:var(--yelow);
+    
+
+}
+
+#apresentation h3{
+    font-size: 1.7rem;
+    text-align: center;
+    color: var(--color-white);
 }

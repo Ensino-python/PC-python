@@ -4,47 +4,39 @@
 	box-sizing: border-box;
 }
 
-:root {
+:root{
+
+	--blue-one:#0e2433;
+	--blue-two:#1c4866;
+	--blue-three:#296d98;
+	--blue-four:#3792cb;
+	--blue-five:#45b6fe;
+	--yelow:#ffff00;
+	--color-white:#fff;
+	--color-black:#000;
+
 	font-size: 62.5%;
-
-	--color-primary: rgba(17,17,18,1);
-	--color-primary-light:rgba(27,27,28,1);
-	--color-logo-black: #000000;
-	--color-secondary: #2f9e41;
-	--color-tertiary: #cd191e;
-	--color-gray: #e3e3e3;
-	--color-white: #f9f9f9;
-	
-
+}
+body{
+	font-family: 'Maven Pro', sans-serif;
+	background-color: var(--blue-two);
+	position: relative;
 }
 
-body {
-	font-family: 'Poppins', Arial, Helvetica, sans-serif;
-	background-color: var(--color-primary);
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Press Start 2P', 'cursive';
 }
 
-
-.page-content {
-	background-color: var(--color-primary);
-}
-
-.page-content .titles{
+.material-symbols-outlined{
 	color: var(--color-white);
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
 }
 
 
-.titles h1{
-	width: 85%;
-	padding-top: 3rem;
-	font-size: 2.5rem;
-}
 
-.material-icons {
-  color: white;
-}
+
+
+
+
+
+
 
