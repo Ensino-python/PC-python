@@ -8,6 +8,7 @@ window.addEventListener('load', () => {
     container.classList.add("mobile");
     if(window.innerWidth <= 800){
 
+        nav_menu.classList.add("desactive");
         container.classList.add("mobile");
         header.classList.add("mobile");
         footer.classList.add("mobile");
