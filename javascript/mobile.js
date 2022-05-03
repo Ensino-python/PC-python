@@ -3,8 +3,8 @@ const header = document.querySelector("header");
 
 
 window.addEventListener('load', () => {
-    
-    if(window.screen.width <= 800){
+    container.classList.add("mobile");
+    if(window.innerWidth <= 800){
 
         container.classList.add("mobile");
        
@@ -21,17 +21,19 @@ window.addEventListener('load', () => {
 });
 
 window.addEventListener('resize', () => {
-    if(window.screen.width <= 800){
 
-        container.classList.add("mobile");
-       
+
+    console.log(window.innerWidth);
+
+    if(window.innerWidth <= 800){
+
+        container.classList.add("mobile");       
         header.classList.add("mobile");
        
  
      } else{
 
-        container.classList.add("mobile");
-
+        container.classList.remove("mobile");
         header.classList.remove("mobile");
         
      }
