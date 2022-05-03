@@ -24,3 +24,8 @@
 .card.card.large p{
     max-width: 100%;
 }
+
+
+.mobile .card.large.lar{
+    height: fit-content;
+}
