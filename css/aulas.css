@@ -43,3 +43,7 @@
 .mobile .card.large.lar{
     height: fit-content;
 }
+
+#letras{
+    padding: .6rem 5rem .2rem;
+}
