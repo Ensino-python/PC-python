@@ -46,6 +46,20 @@
 
 }
 
+.mobile .card.large {
+
+    height: fit-content;
+
+
+}
+
+.mobile .card.large h2{
+
+    text-align: center;   
+    line-height: 5rem; 
+
+}
+
 
 .mobile .card.small .card-content ,
 .mobile .card.medium .card-content ,

@@ -158,6 +158,7 @@
 /* ========================== card grande ====================*/ 
 .card.large{
     width: 96.5%;
+    height: fit-content;
     max-width: 144rem;
     font-size: 2.5rem;
     margin:1rem; 
