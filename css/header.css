@@ -9,7 +9,7 @@ header{
     justify-content: center;
 }
 
-header a{
+header button a{
     color: var(--color-black);
 }
 
