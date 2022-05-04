@@ -15,6 +15,7 @@ window.addEventListener('load', () => {
  
      } else{
 
+        nav_menu.classList.add("desactive");
         container.classList.remove("mobile");
         header.classList.remove("mobile");
         footer.classList.remove("mobile");
