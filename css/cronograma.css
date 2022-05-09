@@ -3,12 +3,22 @@
     width: 100%;
     height: 90%;
     display: flex;
-    justify-content: start;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: nowrap;
 }
 
+
+.cronograma-content{
+    width: 100%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
 .link{
     display: flex;
     flex-direction: column;
@@ -26,4 +36,11 @@
     cursor: pointer;
     font-size: medium;
     text-align: center;
+}
+
+.botao-expandir{
+    margin: 2rem 0 auto;
+    width: 5rem;
+    height: 4rem;
+    display: none;
 }

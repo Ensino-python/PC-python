@@ -42,6 +42,9 @@ footer .upper .columns .column ul {
 	list-style: none;
 }
 
+footer .upper .social-media{
+	margin: 4rem auto;
+}
 footer .upper .social-media a {
 	text-decoration: none;
 	color: var(--color-secondary);

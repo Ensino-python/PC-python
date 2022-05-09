@@ -3,6 +3,10 @@ const header = document.querySelector("header");
 const nav_menu = document.querySelector(".nav-menu");
 const nav_button = document.querySelector(".nav-button");
 const footer = document.querySelector("footer");
+const cronograma = document.querySelector(".cronograma")
+ 
+
+
 
 window.addEventListener('load', () => {
     container.classList.add("mobile");
@@ -60,3 +64,14 @@ nav_button.addEventListener("click", ()=>{
     }
 
 })
+
+cronograma.querySelector(".botao-expandir").addEventListener("click", ()=>{
+
+    cronograma.classList.toggle("recolhido");
+    cronograma.querySelector(".botao-expandir").innerHTML = `<span class="material-symbols-outlined">
+    expand_less
+    </span>`
+})
+
+
+

@@ -39,3 +39,8 @@ function openNextPage(url) {
     var janela = window.open(url, '_parent');
     janela.focus();
 }
+
+
+
+
+
