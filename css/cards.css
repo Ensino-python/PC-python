@@ -184,6 +184,7 @@
 .card.card.large p{
     font-size: 2rem;
     max-width: 50%;
+    text-align: justify;
 }
 
 .card.large .card-img{
