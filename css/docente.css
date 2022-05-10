@@ -1,4 +1,4 @@
-.cards-professor {
+.integrantes {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -8,52 +8,61 @@
 .card-professor {
 	width: 280px;
 	height: 350px;
-	background-color: #1b1b1b;
+
+	background-color: rgba(0, 0, 0, .4);
 	padding: 5px;
 	border-radius: 1.5rem;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
 }
 
 .image-professor {
-	width: 150px;
-	border-radius: 50%;
+	width: 100%;
+	border-radius: 1.5rem;
 	display: block;
 	margin: auto;
+	margin-bottom: 2rem;
 	margin-top: 1em;
+
 }
 
 .name-professor {
-	font-size: 15px;
-	color: #494949;
+	font-size: 2rem;
+	font-family: 'Press Start 2P', 'cursive';
+	color: var(--yelow);
 	text-align: center;
 	text-decoration: none;
+		
 }
 
 .info-professor {
 	margin: 1rem;
 	text-align: left;
+	align-items: center;
+
+}
+.info-professor ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	
 }
 
-.info-professor i, .info-professor a {
-	font-size: 12px;
-	text-decoration: none;
-	color: var(--color-white);
+.info-professor ul li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
 }
 
-.extra-professor {
-	margin-top: 1em;
-	font-size: 13px;
-	color: white;
+
+.info-professor a{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 2rem;
+	line-height: 3rem;
 }
 
-.info-professor .email, .info-professor .instagram {
-  color: white;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 12px;
-} 
 
-.info-professor .email span, .info-professor .instagram span {
-  margin-right: 5px;
-}
