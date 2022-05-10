@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+            
+        <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/list.css" />
+        <link rel="stylesheet" href="css/cards.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/standart.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+
+        <link rel="stylesheet" href="css/mobile/header_mobile.css">
+        <link rel="stylesheet" href="css/mobile/standart_mobile.css">
+        <link rel="stylesheet" href="css/mobile/cards_mobile.css">
+        <link rel="stylesheet" href="css/mobile/footer_mobile.css">
+        <link rel="stylesheet" href="css/aulas.css">
+
+        <title>Projeto Ensino de programação</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="">
+                <div class="header-container">
+                    <div class="logo">
+                        <a href=""><img src="images/logoIfCinza.svg" alt="" /></a>
+                    </div>
+    
+                    <div class="nav-menu">
+                        <ul>
+                            <li><a href="">Conteudos</a></li>
+                            <li><a href="">Tutores</a></li>
+                        </ul>
+
+                        <button>MAIS +</button>
+                    </div>
+                    
+                    <div class="nav-button">
+                        <span class="material-symbols-outlined">menu</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="card-container">
+                <div class="card large lar">
+                    <div class="card-content">
+                        <h2>Aula 3</h2>
+
+                        <h5 class="subtitulo">Variável Booleana</h5>
+                            <p>
+                                Boolean é um tipo de variável diferente das vistas anteriormente, nela os valores 
+                                possíveis são apenas VERDADEIRO ou FALSO. Foram nomeados assim em homenagem ao 
+                                matemático George Boole, que definiu um sistema algébrico para determinar o valor 
+                                de verdade de expressões lógicas. Toda linguagem de programação apresenta 
+                                alguma representação para valores booleanos, porque muitas vezes, é necessário 
+                                declarar se algo é ou não é. Em Python, esses valores são as palavras True para 
+                                verdadeiro e False para falso.
+                            </p>
+                            <p>
+                                Os valores abaixo são considerados falsos:
+                            </p>
+                            <ul class="ul_card_large">
+                                <li>False (falso);</li>
+                                <li>None (nulo);</li>
+                                <li>0 (zero);</li>
+                                <li>”” (string vazia);</li>
+                                <li>[] (lista vazia);</li>
+                                <li>() (tupla vazia);</li>
+                                <li>{} (dicionário vazio).</li>
+                            </ul>
+                            <!--Imagem do código de booleano do slide-->
+                            <p>
+                                Observação: Python diferencia capitalização, portanto true, TRUE é diferente de 
+                                True com a inicial maiúscula.
+                            </p>
+
+                        <h5 class="subtitulo">Operadores Relacionais</h5>
+                            <!--Imagem da tabela dos Operadores Relacionais - Slide-->
+                            <p>
+                                Operadores relacionais são utilizados para comparações de valores, realizando 
+                                comparações entre os valores do lado esquerdo e direito, como nas equações 
+                                matemáticas. Sendo os operadores:
+                            </p>
+                            <h6 class="subtitulo_h6">Exemplo</h6>
+                                <!--Imagem da tabela dos exemplos dos Operadores Relacionais - Slide-->
+                                <p>
+                                    Observação: Não confundir o operador de atribuição =, com o operador de igualdade ==.
+                                </p>
+
+                        <h5 class="subtitulo">Operadores Lógicos</h5>
+                            <!--Imagem da tabela dos exemplos dos Operadores Logicos - Slide-->
+                            <!--Imagem 2 dos exemplos dos Operadores Logicos-->
+                            <h6 class="subtitulo_h6">Operador lógico E</h6>
+                                <p>
+                                    Às vezes, temos situações em que temos várias condições que necessitam ser 
+                                    verdadeiras ao mesmo tempo. Como por exemplo, para definir de alguém passou de 
+                                    ano, para isso é necessário que ele tenha tirado nota acima da média em todas as 
+                                    matérias, ou seja, tenha tirando uma nota maior que (>=) 6 em matemática,  uma nota 
+                                    maior que (>=) 6 em português e assim por diante em todas as matérias. Nessas 
+                                    situações usamos o operador lógico and (E), operador lógico que só retorna 
+                                    verdadeiro se todas as expressões forem verdadeiras.
+                                </p>
+                                <!--Imagem do codigo de exemplo do Operador Logico E-->
+                            <h6 class="subtitulo_h6">Operador lógico OR</h6>
+                                <p>
+                                    Em outros casos pode ser que tenhamos uma situação que seja necessário apenas 
+                                    uma condição verdadeira para executar. Como por exemplo, um aluno não precisa ir 
+                                    na escola se for sábado ou domingo, certo? Nessas situações usamos o operador 
+                                    lógico or (OU), operador lógico que só retorna falso se todas as condições forem 
+                                    falsas.
+                                </p>
+                                <!--Imagem do codigo de exemplo do Operador Logico OR-->
+                            <h6 class="subtitulo_h6">Operador lógico NOT</h6>
+                                <p>
+                                    O operador lógico NÃO, diferente dos operadores lógicos a única função é inverter 
+                                    o resultado, tornando o que era verdadeiro em falso e falso em verdadeiro.
+                                </p>
+                                <!--Imagem do codigo de exemplo do Operador Logico NOT-->
+                                <p>
+                                    Observação: Ao contrário dos operadores E e OU, o operador NÃO vem antes da comparação.
+                                </p>
+                            <h6 class="subtitulo_h6">Revisão dos operadores lógicos</h6>
+                                <!--Imagem do 'Exemplo - Print'-->
+                                <p>
+                                    No operador and(E), o resultado só será verdadeiro caso todas as comparações sejam 
+                                    verdadeiras. Ou seja, se qualquer condição que compõe a linha o E for falsa, o 
+                                    resultado será falso.                                
+                                </p>
+                                <p>
+                                    No operador or(OU), o resultado será verdadeiro com apenas uma das comparações sendo 
+                                    verdadeira. Ou seja, um conjunto de várias condições interligadas por OU será 
+                                    verdadeira no caso de pelo menos uma delas ser verdadeira.                                
+                                </p>
+                                <p>
+                                    No operador not(NOT), o resultado será o inverso de uma determinada condição.  
+                                    Ou seja, ele irá inverter o resultado de forma que o verdadeiro passe a valer falso 
+                                    e falso tenha valor de verdadeiro.                                
+                                </p>
+
+                        <h5 class="subtitulo">Estruturas condicionais</h5>
+                            <p>
+                                Até o momento, vimos que o algoritmo executa uma linha após a outra, executando todas 
+                                as linhas do início ao fim. Porém, existem casos em que uma linha só pode ser executada 
+                                a partir de algo.
+                            </p>
+                            <p>
+                                Os códigos de um programa normalmente são executados de forma sequencial, ou seja, 
+                                o código da linha de baixo será executado logo após o código de cima. No entanto, 
+                                às vezes é necessário alterar essa ordem de execução, para por exemplo realizar algo 
+                                apenas em determinada situação, é aqui que os operadores relacionais estudados 
+                                anteriormente serão muito utilizados.
+                            </p>
+                            <p>
+                                As estruturas condicionais realizam essa tarefa de controlar o fluxo de execução do 
+                                programa, utilizando de teste lógico simples e verificando se é verdadeiro ou falso. 
+                                Quando o código a ser executado só tem uma ramificação, pode-se utilizar o comando if 
+                                ou se em português. Ele irá verificar se se determinada condição é verdadeira, se for 
+                                executará o código, um exemplo simples seria: se a pessoa tiver mais de 18 anos, informe 
+                                que ela deverá votar, aqui o comando se, está sendo usado com uma condição do tipo 
+                                idade > 18 e imprimindo uma mensagem informando que deve votar.
+                            </p>
+                            <!--Imagem do fluxograma da estrutura condicional IF - Slide-->
+                            <!--Imagem do esboço - estrutura do IF - Apostila-->
+                            <!--Imagem do codigo do IF - Slide-->
+                            <p>
+                                Até agora não precisamos preocupar com esse espaço antes do início da linha, mas agora, 
+                                todo algoritmo que se deseja executar no if, precisa estar mais para frente da linha 
+                                anterior.
+                            </p>
+                            <p>
+                                Existem casos, que se deseja realizar uma ou outra funcionalidade  dependendo do 
+                                resultado do teste lógico, lembrando que pode ser verdadeiro ou falso. Para isso, 
+                                pode usar o código else ou senão em português, onde irá executar determinado bloco 
+                                de código caso seja verdadeiro ou então um outro fluxo de comando, como por exemplo: 
+                                se o aluno tirou mais de 7 na média final, ele está aprovado caso contrário reprovado. 
+                                Aqui, o operador if está fazendo uma comparação de nota > (maior que) 7 para verificar 
+                                e informar se o aluno está aprovado e no caso de ser uma nota menor que 7, irá executar 
+                                os comandos presentes no else e assim informar que o aluno reprovou.
+                            </p>
+                            <!--Imagem do fluxograma da estrutura condicional IF - ELSE - Slide-->
+                            <!--Imagem do esboço - estrutura do IF-ELSE - Apostila-->
+                            <!--Imagem do codigo do IF - ELSE - Slide-->
+                            <p>
+                                E se o objetivo for melhorar o exemplo anterior e informar se o aluno está de 
+                                recuperação ou reprovado, como resolver? Isso não é nenhum desafio, já existem 
+                                estruturas pensadas para solucionar esse problema, são as chamadas else if ou 
+                                senão se, seu funcionamento é bastante semelhante ao if e ao else separados, porém 
+                                a diferença aqui é que ao invés de executar o código do else automaticamente, irá 
+                                ser feito uma nova verificação. No exemplo anterior, uma opção seria: se aluno 
+                                possuir média maior que 7 está aprovado, senão se a nota for entre 7 e 3 está de 
+                                recuperação, caso contrário se for menos que 3 reprovado.
+                            </p>
+                            <p>
+                                    Isso tem suas vantagens, pois permite colocar inúmeras comparações em sequência e 
+                                    quando uma delas for verdadeira as verificações seguintes não são  realizadas.
+                            </p>
+                            <!--Imagem do fluxograma da estrutura condicional IF - IF - ELSE - Slide-->
+                            <!--Imagem do esboço - estrutura do IF - IF -ELSE - Apostila-->
+                            <!--Imagem do codigo do IF - IF - ELSE - Slide-->                           
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-logo">
+                <img src="" alt="">
+            </div>
+        </footer>
+        
+        <script src="javascript/mobile.js"></script>
+    </body>
+</html>
