@@ -1,17 +1,6 @@
 const integrantes = document.querySelector('.integrantes');
 
 
-<<<<<<< Updated upstream
-=======
-/* CREATING PROFESSORS */
-// carlos
-var newareny = Object.create(professor);
-newareny.name = "Newarney Torrezao da Costa";
-newareny.email = "carlos.ferreira@ifgoiano.edu.br";
-newareny.description = "Especialista em Arquivologia pelo Instituto de Pós-graduação e Graduação";
-newareny.lattes_url = "http://lattes.cnpq.br/7241511249800428";
->>>>>>> Stashed changes
-
 
 const pessoas = [
 	{
