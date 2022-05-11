@@ -7,7 +7,7 @@
 
 .card-professor {
 	width: 280px;
-	height: 350px;
+	height: 370px;
 
 	background-color: rgba(0, 0, 0, .4);
 	padding: 5px;
@@ -45,6 +45,13 @@
 		
 }
 
+.professor-content{
+
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .info-professor {
 	margin: 1rem;
 	text-align: left;

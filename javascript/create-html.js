@@ -82,7 +82,7 @@ pessoas.forEach((pessoa) => {
 		<div class="foto">
 			<img class="image-professor" src="${pessoa.image_path}">
 		</div>
-		<div>
+		<div class="professor-content">
 			<a href="${pessoa.lattes_url}" class="name-professor" target="_blank">${pessoa.name}</a>
 		</div>
 		
