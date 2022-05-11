@@ -1,7 +1,5 @@
 const integrantes = document.querySelector('.integrantes');
 
-
-
 const pessoas = [
 	{
 		"name": "Blenda Gabrielly Souza Morais",
