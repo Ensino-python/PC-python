@@ -2,7 +2,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 90px;
+	gap: 40px;
 }
 
 .card-professor {
