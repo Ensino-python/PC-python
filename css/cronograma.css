@@ -9,6 +9,10 @@
     flex-wrap: nowrap;
 }
 
+.cronograma h4{
+    font-size: 8px;
+}
+
 
 .cronograma-content{
     width: 100%;
