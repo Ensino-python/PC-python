@@ -47,7 +47,7 @@ const pessoas = [
 		"name": "Mateus Barros Macedo",
 		"email": "mateus.barros@estudante.ifgoiano.edu.br",
 		"instagram": "https://www.instagram.com/mateusbmm/",
-		"image_path": "images/user.svg",
+		"image_path": "images/profiles/mateus.png",
 		"Formação": "Bacharelando em Ciência da Computação - IF Goiano - Campus Iporá",
 		"lattes_url": "http://lattes.cnpq.br/1193473969400253"
 	},
