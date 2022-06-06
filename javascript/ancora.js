@@ -4,7 +4,6 @@ var url_aula2 = "aula2.html";
 var url_aula_operadores = "aula_operadores.html";
 var url_aula3 = "aula3.html";
 var url_aula4 = "aula4.html";
-//var url_aula5 = "aula5.html";
 var url_aula6 = "aula6.html";
 var url_ENATI = "https://enati-ifgoiano.github.io/2022/#/";
 
@@ -15,7 +14,6 @@ var aula2 = document.getElementById("card-aula2");
 var aula_operadores = document.getElementById("card-aula-operadores");
 var aula3 = document.getElementById("card-aula3");
 var aula4 = document.getElementById("card-aula4");
-//var aula5 = document.getElementById("card-aula5");
 var aula6 = document.getElementById("card-aula6");
 
 programiz.addEventListener('click', function() {
@@ -60,12 +58,6 @@ aula4.addEventListener('click', function() {
     openNextPage(url_aula4);
   
 });
-
-/*aula5.addEventListener('click', function() {
-    
-    openNextPage(url_aula6);
-  
-});*/
 
 aula6.addEventListener('click', function() {
     
