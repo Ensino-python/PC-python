@@ -6,6 +6,10 @@
    font-size: 2.5rem;
 }
 
+.mobile .cronograma.recolhido svg{
+    height: 30px;
+}
+
 .mobile .cronograma.recolhido .cronograma-content{
     display: none;
 }
