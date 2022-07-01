@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+            
+        <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/list.css" />
+        <link rel="stylesheet" href="css/cards.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/standart.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+
+        <link rel="stylesheet" href="css/mobile/header_mobile.css">
+        <link rel="stylesheet" href="css/mobile/standart_mobile.css">
+        <link rel="stylesheet" href="css/mobile/cards_mobile.css">
+        <link rel="stylesheet" href="css/mobile/footer_mobile.css">
+        <link rel="stylesheet" href="css/aulas.css">
+
+        <link rel="stylesheet" href="css/images.css">
+
+        <title>Projeto Ensino de programação</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+				<div class="header-container">
+					<div class="logo">
+						<a href="index.html"><img src="images/logoIfCinza.svg" alt="" /></a>
+						
+					</div>
+	
+					<div class="nav-menu">
+						<ul>
+							<li><a href="tutores.html">Tutores</a></li>
+							
+						</ul>
+	
+						<a href="https://ifgoiano.edu.br/home/index.php/ipora.html" target="_blank"><button>MAIS +</button></a>
+					</div>
+					<div class="nav-button">
+						<span class="material-symbols-outlined">menu</span>
+					</div>
+				</div>
+			</header>
+
+            <div class="card-container">
+                <div class="card large lar">
+                    <div class="card-content">
+                        <h2>Conceitos de Algoritmos</h2>
+
+                        <h5 class="subtitulo">Fluxograma</h5>
+                            <p>
+                                Representação de um programa com elementos por meio de blocos.
+                            </p>
+                            <!--Imagem do 'Exemplo - Fluxograma'-->
+                            <div class="card-image">
+                                <img src="images/aulas/fluxograma.png" alt="" class="">
+                            </div>
+
+                        <h5 class="subtitulo">Variáveis</h5>
+                            <p>
+                                Variáveis servem para dar nome a posições de memória que armazenarão dados de um programa.
+                            </p>
+                            <h6 class="subtitulo_h6">Regras</h6>
+                                <p>
+                                    Para declarar variaveis, precisamos de seguir alguma regras, que são:
+                                </p>
+                                <ul class="ul_card_large">
+                                    <li>O nome das variáveis devem obrigatoriamente começar com uma letra;</li>
+                                    <li>Deve-se usar nomes significativos dentro do contexto do programa;</li>
+                                    <li>Exemplo de nomes de variáveis válidas: Idade, Contador, PesoDoCarro, Usuario_1, CorDaPagina, RaioDoCirculo;</li>
+                                    <li>Exemplo de nomes de variáveis inválidas: salario medio(não pode conter espaços), 1a(não pode começar com números)</li>
+                                </ul>
+
+                        <h5 class="subtitulo">Definição de entrada/saída</h5>
+                            <h6 class="subtitulo_h6">Entrada - Input</h6>
+                                <p>
+                                    Uma das tarefas mais comuns em um programa ou script é a captura de dados 
+                                    digitados pelos usuários, para que possam ser processados dentro do programa. 
+                                    Em Python, podemos empregar a função input() para realizar essa tarefa corriqueira.
+                                </p>
+                                <p>
+                                    Esta função lê a entrada que o usuário digitou e armazena o valor em uma variável, 
+                                    por exemplo. A entrada é sempre retornada como um tipo string, independente do tipo 
+                                    de dado fornecido. Se a entrada não for realizada corretamente, pode resultar em 
+                                    erro na execução do programa, por isso é importante realizar conversões de tipo de 
+                                    forma adequada antes de usar os valores capturados.
+                                </p>
+                            <h6 class="subtitulo_h6">Exemplo - Input</h6>
+                                <!--Imagem do 'Exemplo - Print'-->
+                                <div class="card-start">
+                                    <img src="images/aulas/eximput.png" alt="" class="">
+                                </div>
+
+                            <h6 class="subtitulo_h6">Saida - Print</h6>
+                                <p>
+                                    A função print() é uma das funções mais importantes e usadas na linguagem Python. 
+                                    Sua função é, basicamente, exibir mensagens na tela ou enviá-las para outro dispositivo, 
+                                    como imprimir dentro de arquivos de texto.
+                                </p>
+                            <h6 class="subtitulo_h6">Exemplo - Print</h6>
+                                <!--Imagem do 'Exemplo - Input'-->
+                                <div class="card-start">
+                                    <img src="images/aulas/exsaida.png" alt="" class="">
+                                </div>
+
+                            <h6 class="subtitulo_h6">Exibição de mensagens na tela</h6>
+                                <p>
+                                    A função pode aceitar qualquer número de argumentos posicionais, o que é realmente muito 
+                                    útil para criar mensagens complexas e formatadas. Desta forma, podemos também imprimir 
+                                    mais de um objeto separando-os com vírgulas na função:
+                                </p>
+                            <!--<h6 class="subtitulo_h6">Exemplo</h6>-->
+                                <!--Imagem do 'Exemplo - Mensagem'-->
+
+                            <h6 class="subtitulo_h6">Saida - Concatenação de Strings</h6>
+                                <p>
+                                    A função pode aceitar qualquer número de argumentos posicionais, o que é realmente muito 
+                                    útil para criar mensagens complexas e formatadas. Desta forma, podemos também imprimir 
+                                    mais de um objeto separando-os com vírgulas na função:
+                                </p>
+                            <h6 class="subtitulo_h6">Exemplo</h6>
+                                <!--Imagem do 'Exemplo - Concatenação'-->
+                                <div class="card-start">
+                                    <img src="images/aulas/concatec.png" alt="" class="concatec">
+                                </div>
+                            
+                            <h6 class="subtitulo_h6">Saida - Diferença entre , e +</h6>
+                                <p>
+                                    A vírgula só irá apresentar dados de uma determinada variável, dando um espaço com os dados.
+                                </p>
+                                <!--Imagem do 'Exemplo - Virgula'-->
+                                <div class="card-start">
+                                    <img src="images/aulas/concatecvir.png" alt="" class="concatec">
+                                </div>
+
+                                <p>
+                                    Já o sinal de mais irá concentrar aqueles dados, tirando o espaço que a vírgula produziria.
+                                </p>
+                                <!--Imagem do 'Exemplo - Mais'-->
+
+                            <h6 class="subtitulo_h6">Resumo - Comandos Print e Input</h6>
+                                <p>
+                                    Print: Comando utilizado para mostrar texto na tela
+                                </p>
+                                <p>
+                                    Input: Comando utilizado para realizar a entrada de dados.
+                                </p>
+
+                        <h5 class="subtitulo">Tipos de variáveis:</h5>
+                            <p>
+                                Python é uma linguagem dinamicamente tipada, o que significa que não é necessário declarar o 
+                                tipo de variável ou fazer casting (mudar o tipo de variável), pois o Interpretador se 
+                                encarrega disso para nós! Isso significa também que o tipo da variável pode variar durante a 
+                                execução do programa.
+                            </p>
+                            <h6 class="subtitulo_h6">Inteiro - int</h6>
+                                <p>
+                                    O tipo inteiro é um tipo composto por caracteres numéricos (algarismos) inteiros.
+                                </p>
+                                <p>
+                                    É um tipo usado para um número que pode ser escrito sem um componente decimal, 
+                                    podendo ter ou não sinal, isto é: ser positivo ou negativo.
+                                </p>
+                                <p>
+                                    Por exemplo, 21, 4, 0, e −2048 são números inteiros, enquanto 9.75, 1/2, 1.5 não são.
+                                </p>
+                                <!--Imagem do 'Exemplo do input - Int'-->
+                                <div class="card-start">
+                                    <img src="images/aulas/int.png" alt="" class="concatec">
+                                </div>
+                            <h6 class="subtitulo_h6">Ponto Flutuante ou Decimal - float</h6>
+                                <p>
+                                    É um tipo composto por caracteres numéricos (algarismo) decimais.
+                                </p>
+                                <p>
+                                    O famoso ponto flutuante é um tipo usado para números racionais (números que podem 
+                                    ser representados por uma fração) informalmente conhecido como “número quebrado”.
+                                </p>
+                                <!--Imagem do 'Exemplo do input - Float'-->
+                                <div class="card-start">
+                                    <img src="images/aulas/float.png" alt="" class="concatec">
+                                </div>
+                            <h6 class="subtitulo_h6">String</h6>
+                                <p>
+                                    É um conjunto de caracteres dispostos numa determinada ordem, geralmente utilizada para 
+                                    representar palavras, frases ou textos.
+                                </p>
+                                <!--Imagem do 'Exemplo do input - String'-->
+                                <div class="card-start">
+                                    <img src="images/aulas/string.png" alt="" class="concatec">
+                                </div>
+                            <h6 class="subtitulo_h6">Booleano - bool</h6>
+                                <p>
+                                    É um tipo que pode assumir apenas dois valores, verdadeiro ou falso, e é 
+                                    usado quando temos apenas duas opções de respostas, um “sim” ou “não”.
+                                </p>
+                                <!--Imagem do 'Exemplo do booleano-->
+                                <div class="card-start">
+                                    <img src="images/aulas/boolean.png" alt="" class="concatec">
+                                </div>
+                            <h6 class="subtitulo_h6">Resumo dos Tipos de Variáveis</h6>
+                                <p>
+                                    Abaixo podemos visualizar um resumo das variáveis e suas respectivas siglas:
+                                </p>
+                                    <ul class="ul_card_large">
+                                        <li>Inteiro: int;</li>
+                                        <li>Float: float;</li>
+                                        <li>String: str.</li>
+                                    </ul>
+                        <h5 class="subtitulo">Atribuição:</h5>
+                            <p>
+                                Operadores de atribuição são utilizados para atribuirmos um valor a uma variável.
+                            </p>
+                            <p>
+                                Pode ser para definir um valor inicial ou para sobrescrever um valor já existente.
+                            </p>
+                            <h6 class="subtitulo_h6">Exemplo 1 - Atribuição</h6>
+                                <!--Exemplo 1 - Atribuição-->
+                                <div class="card-start">
+                                    <img src="images/aulas/atribu.png" alt="" class="concatec">
+                                </div>
+                            <h6 class="subtitulo_h6">Desafio</h6>
+                                <!--Desafio-->
+                                <div class="card-start">
+                                    <img src="images/aulas/desafio.png" alt="" class="concatec">
+                                </div>
+
+                        <h5 class="subtitulo">Exemplo</h5>
+                            <!--Exemplo - nome, idade e duas notas-->
+                            <div class="card-start">
+                                <img src="images/aulas/atividade.png" alt="" class="">
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="">
+			<div class="upper">
+
+				<div class="img">
+                    <a href="index.html"><img src="images/logoIfCinza.svg" alt="" /></a>
+				</div>
+				
+
+				<div class="social-media">
+					<a
+						href="https://www.instagram.com/ifgoianocampusipora/"
+						target="_blank"
+					>
+						Instagram
+					</a>
+
+					<a
+						href="https://www.facebook.com/ifgoianocampusipora/"
+						target="_blank"
+					>
+						facebook
+					</a>
+				
+				</div>
+			</div>
+			
+				
+			</div>
+		</footer>
+        
+        <script src="javascript/mobile.js"></script>
+    </body>
+</html>
